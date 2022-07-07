@@ -12,7 +12,6 @@ class InvisibleFragment : Fragment() {
 
     private var callback: PermissionCallback? = null
 
-
     fun requestNow(cb: PermissionCallback, vararg permissions: String) {
         callback = cb
         requestPermissions(permissions, 1)
